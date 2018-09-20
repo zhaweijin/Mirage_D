@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <WebView
+            android:id="@+id/web"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="0dip"
+            android:background="#000000"
+            android:fadingEdge="none"
+            android:fadingEdgeLength="0dip"
+            android:padding="0dip"
+            android:scrollbars="none" >
+        </WebView>
+
+        <ProgressBar
+            android:id="@+id/secondBar"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="gone" />
+
+        <RelativeLayout
+            android:id="@+id/mRelativeLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="20dip"
+            android:visibility="gone" >
+
+            <Button
+                android:id="@+id/preButton"
+                style="@style/common_image_size"
+                android:layout_toLeftOf="@+id/pauseButton"
+                android:layout_marginRight="50dip"
+                android:background="@drawable/ic_image_pre"
+                />
+
+            <Button
+                android:id="@+id/pauseButton"
+                style="@style/common_image_size"
+                android:layout_centerHorizontal="true"
+                android:layout_centerInParent="true"
+                android:background="@drawable/image_play"
+                />
+
+            <Button
+                android:id="@+id/nextButton"
+                style="@style/common_image_size"
+                android:layout_marginLeft="50dip"
+                android:layout_toRightOf="@+id/pauseButton"
+                android:background="@drawable/ic_image_next"
+            />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</FrameLayout>

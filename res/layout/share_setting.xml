@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget28"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/grobal_background"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/layout_dms_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/set_top_background"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/widget30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/share_content_set"
+            android:layout_marginLeft="10dip"
+            android:textSize="15sp" >
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/widget29"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/set_horizontal_dot"
+        android:orientation="horizontal" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_audio"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/setting_row"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/layaudio"
+            android:layout_width="fill_parent"
+            android:layout_height="70dip"
+            android:layout_marginLeft="20dip"
+            android:layout_marginTop="10dip" >
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="@string/music"
+                android:textSize="24sp" >
+            </TextView>
+
+            <CheckBox
+                android:id="@+id/audio_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:background="@drawable/setting_on_off"
+                android:button="@null"
+                android:checked="false"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dip" >
+            </CheckBox>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/widget29"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/set_horizontal_dot"
+        android:orientation="horizontal" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_video"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/setting_row"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/layvideo"
+            android:layout_width="fill_parent"
+            android:layout_height="70dip"
+            android:layout_marginLeft="20dip"
+            android:layout_marginTop="10dip" >
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="@string/movie"
+                android:textSize="24sp" >
+            </TextView>
+
+            <CheckBox
+                android:id="@+id/video_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/setting_on_off"
+                android:button="@null"
+                android:checked="false"
+                android:layout_marginRight="20dip" >
+            </CheckBox>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/widget29"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/set_horizontal_dot"
+        android:orientation="horizontal" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_image"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/setting_row"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/layimage"
+            android:layout_width="fill_parent"
+            android:layout_height="70dip"
+            android:layout_marginLeft="20dip"
+            android:layout_marginTop="10dip" >
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="@string/photo"
+                android:textSize="24sp" >
+            </TextView>
+
+            <CheckBox
+                android:id="@+id/image_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/setting_on_off"
+                android:button="@null"
+                android:checked="false"
+                android:layout_marginRight="20dip" >
+            </CheckBox>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/widget29"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/set_horizontal_dot"
+        android:orientation="horizontal" >
+    </LinearLayout>
+
+</LinearLayout>

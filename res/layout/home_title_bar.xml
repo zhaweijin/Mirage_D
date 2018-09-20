@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget28"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/title_bar_background"
+    android:orientation="horizontal" >
+
+    <RelativeLayout
+        android:id="@+id/layout_flash"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:background="@drawable/ic_title_bar"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/widget30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/flash_icon"
+                style="@style/common_image_size"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/ic_flash" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/flash_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:text="@string/flash" >
+            </TextView>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_device_play"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:background="@drawable/ic_title_bar"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/widget30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/device_play_icon"
+                style="@style/common_image_size"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/ic_device_play" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/device_play_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:text="@string/play" >
+            </TextView>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_set"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:background="@drawable/ic_title_bar"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/widget30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/set_icon"
+                style="@style/common_image_size"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/ic_set" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/set_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:text="@string/set" >
+            </TextView>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_exit"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:background="@drawable/ic_title_bar"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/widget30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/exit_icon"
+                style="@style/common_image_size"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/ic_exit" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/set_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:text="@string/exit" >
+            </TextView>
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

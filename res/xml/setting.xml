@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+        
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+            android:title="媒体共享">
+            
+        <CheckBoxPreference
+                android:key="dms_checkbox_preference"
+                android:title="共享内容"
+                android:summary="启动共享内容" />
+
+         <PreferenceScreen
+                android:title="共享内容设置"
+                android:summary="与家人朋友共享您最喜欢的内容">
+           <intent android:action="android.intent.action.MAIN"
+                android:targetPackage="com.mirage.dlna"
+                android:targetClass="com.mirage.dlna.ShareSetting"/>
+        </PreferenceScreen>
+        
+         <EditTextPreference
+                android:key="dms_devices_name"
+                android:title="设备名称"
+                android:summary=""
+                android:dialogTitle="设备名称" />
+    </PreferenceCategory>
+                
+    <PreferenceCategory
+            android:title="媒体播放器设置">
+
+         <CheckBoxPreference
+                android:key="dmr_checkbox_prefernce"
+                android:title="媒体播放器"
+                android:summary="启动本地播放器服务" />
+         
+        <EditTextPreference
+                android:key="dmr_devices_name"
+                android:title="播放器名称"
+                android:summary=""
+                android:dialogTitle="播放器名称" />
+                
+ 
+    </PreferenceCategory>
+
+    <PreferenceCategory
+            android:title="其他">
+
+        <PreferenceScreen
+                android:key="network_set"
+                android:title="网络设置"
+                android:summary="设置网络接入点">
+          <intent android:action="android.intent.action.MAIN"
+                android:targetPackage="com.android.settings"
+                android:targetClass="com.android.settings.Settings"/>           
+        </PreferenceScreen>
+
+        <ListPreference
+                android:key="picture_sliding_time"
+                android:title="幻灯片"
+                android:summary="设置浏览幻灯片的间隔时间"
+                android:entries="@array/picture_sliding_key"
+                android:entryValues="@array/picture_sliding_value"
+                android:dialogTitle="设置浏览幻灯片的间隔时间" />
+
+    </PreferenceCategory>
+    
+   
+    
+</PreferenceScreen>
+

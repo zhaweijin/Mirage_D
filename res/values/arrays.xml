@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <string-array name="choose_types">
+        <item>Text</item>
+        <item>Music</item>
+        <item>Video</item>
+        <item>Image</item>
+    </string-array>
+    
+    <string-array name="picture_sliding_key">
+        <item>4S</item>
+        <item>7S</item>
+        <item>10S</item>
+    </string-array>
+    
+    <string-array name="picture_sliding_value">
+        <item>4000</item>
+        <item>7000</item>
+        <item>10000</item>
+    </string-array>
+
+</resources>

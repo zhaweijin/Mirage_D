@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+android:id="@+id/widget67"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:background="@drawable/grobal_background"
+xmlns:android="http://schemas.android.com/apk/res/android"
+>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget28"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/widget29"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/set_top_background"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/widget30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dip"
+            android:text="@string/set"
+            android:textColor="@color/white"
+            android:textSize="22sp" >
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_share"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/share"
+            android:layout_width="fill_parent"
+            android:layout_height="70dip"
+            android:layout_marginLeft="20dip"
+            android:layout_marginTop="10dip"
+             >
+
+            <TextView
+                android:id="@+id/share_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:text="@string/share_content"
+                android:textSize="24sp" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/share_message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:text="@string/start_share_content"
+                android:layout_marginBottom="5dip"
+                android:textColor="@color/gray"
+                android:textSize="15sp" >
+            </TextView>
+
+            <CheckBox
+                android:id="@+id/dms_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="8dip"
+                android:focusable="false"
+                android:background="@drawable/setting_on_off"
+                android:button="@null"
+                android:checked="false"
+                android:layout_marginRight="10dip" >
+            </CheckBox>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/widget29"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/set_horizontal_dot"
+        android:orientation="horizontal" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_share_content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/content"
+            android:layout_width="fill_parent"
+            android:layout_height="70dip"
+            android:layout_marginLeft="20dip"
+            android:layout_marginTop="10dip"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/widget51"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:text="@string/share_content_set"
+                android:textSize="24sp" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/widget51"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="5dip"
+                android:text="@string/share_content_set_message"
+                android:layout_marginBottom="5dip"
+                android:textColor="@color/gray"
+                android:textSize="15sp" >
+            </TextView>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/widget29"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/set_horizontal_dot"
+        android:orientation="horizontal" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_devices_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/devices_name"
+            android:layout_width="fill_parent"
+            android:layout_height="70dip"
+            android:layout_marginLeft="20dip"
+            android:layout_marginTop="10dip"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/widget51"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:text="@string/devices_name"
+                android:textSize="24sp" >
+            </TextView>
+            <TextView
+                android:id="@+id/display_devices_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="5dip"
+                android:textColor="@color/gray"
+                android:text="Mirage MediaShare"
+                android:layout_marginBottom="5dip"
+                android:textSize="15sp" >
+            </TextView>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/widget29"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/set_horizontal_dot"
+        android:orientation="horizontal" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_dmr"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/dmr"
+            android:layout_width="fill_parent"
+            android:layout_height="70dip"
+            android:layout_marginLeft="20dip"
+            android:layout_marginTop="10dip" >
+
+            <TextView
+                android:id="@+id/dmr_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:text="@string/media_play"
+                android:textSize="24sp" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/dmr_message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:text="@string/start_media_play"
+                android:layout_marginBottom="5dip"
+                android:textColor="@color/gray"
+                android:textSize="15sp" >
+            </TextView>
+
+            <CheckBox
+                android:id="@+id/dmr_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/setting_on_off"
+                android:button="@null"
+                android:checked="false"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="8dip"
+                android:layout_marginRight="10dip" >
+            </CheckBox>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/widget29"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/set_horizontal_dot"
+        android:orientation="horizontal" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_dmr_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/dmr_name"
+            android:layout_width="fill_parent"
+            android:layout_height="70dip"
+            android:layout_marginLeft="20dip"
+            android:layout_marginTop="10dip"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/widget51"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:text="@string/media_play_name"
+                android:textSize="24sp" >
+            </TextView>
+            <TextView
+                android:id="@+id/display_dmr_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:text="Mirage MediaPlayer"
+                android:textColor="@color/gray"
+                android:layout_marginBottom="5dip"
+                android:textSize="15sp" >
+            </TextView>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/widget29"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/set_horizontal_dot"
+        android:orientation="horizontal" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_sliding_time_div"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/sliding_time_div"
+            android:layout_width="fill_parent"
+            android:layout_height="70dip"
+            android:layout_marginLeft="20dip"
+            android:layout_marginTop="10dip" >
+
+            <TextView
+                android:id="@+id/widget54"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:text="@string/slide"
+                android:textSize="24sp" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/widget53"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginBottom="5dip"
+                android:textColor="@color/gray"
+                android:text="@string/slide_set"
+                android:textSize="15sp" >
+            </TextView>
+
+            <Button
+                android:id="@+id/sliding_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="8dip"
+                android:layout_marginRight="10dip"
+                android:background="@drawable/expander_ic_minimized" >
+            </Button>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/widget29"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/set_horizontal_dot"
+        android:orientation="horizontal" >
+    </LinearLayout>
+    
+    
+    <LinearLayout
+        android:id="@+id/layout_zoombutton_hide"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/hide2"
+            android:layout_width="fill_parent"
+            android:layout_height="70dip"
+            android:layout_marginLeft="20dip"
+            android:layout_marginTop="10dip" >
+
+            <TextView
+                android:id="@+id/zoombutton_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:text="@string/zoombutton_title"
+                android:textSize="24sp" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/zoombutton_message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:text="@string/zoombutton_display_message"
+                android:layout_marginBottom="5dip"
+                android:textColor="@color/gray"
+                android:textSize="15sp" >
+            </TextView>
+
+            <CheckBox
+                android:id="@+id/zoom_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/setting_on_off"
+                android:button="@null"
+                android:checked="false"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="8dip"
+                android:layout_marginRight="10dip" >
+            </CheckBox>
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/widget29"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/set_horizontal_dot"
+        android:orientation="horizontal" >
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/layout_about"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/about_set"
+            android:layout_width="fill_parent"
+            android:layout_height="70dip"
+            android:layout_marginLeft="20dip"
+            android:layout_marginTop="10dip"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/widget51"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:text="@string/about"
+                android:textSize="24sp" >
+            </TextView>
+            <TextView
+                android:id="@+id/about_message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:text=""
+                android:layout_marginBottom="5dip"
+                android:textColor="@color/gray"
+                android:textSize="15sp" >
+            </TextView>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/widget29"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/set_horizontal_dot"
+        android:orientation="horizontal" >
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>

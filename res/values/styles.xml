@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="sys_set_preacitivity">
+        <item name="android:windowBackground">@color/brightRed</item>
+        <item name="android:focusable">false</item>
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:cacheColorHint">@android:color/transparent</item>
+        <item name="android:windowNoTitle">false</item> <!-- 用来设定是否显示标题 -->
+    </style>
+
+
+
+    <style name="normal_button">
+        <item name="android:width">64dip</item>
+        <item name="android:height">64dip</item>
+    </style>
+
+      <style name="CustomDialog" parent="@android:style/Theme.Dialog"> 
+	    <item name="android:windowFrame">@null</item> 
+	        <item name="android:windowIsFloating">true</item> 
+	        <item name="android:windowContentOverlay">@null</item> 
+	        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item> 
+	        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item> 
+	    </style> 
+	       
+	    <style name="CustomProgressDialog" parent="@style/CustomDialog"> 
+	        <item name="android:windowBackground">@android:color/transparent</item> 
+	        <item name="android:windowNoTitle">true</item> 
+	    </style>
+	    
+	    <style name="common_image_size">
+	        <item name="android:layout_width">@dimen/home_top_image_size</item>
+	        <item name="android:layout_height">@dimen/home_top_image_size</item>
+	    </style>
+</resources>

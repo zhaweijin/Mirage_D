@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="hello">Hello World!</string>
+    <string name="app_name">MirageDLNA</string>
+  
+
+    <string name="nofilename">没有找到文件名</string>
+    <string name="slide">幻灯片</string>
+    <string name="search_devices">搜索设备...</string>
+	<string name="wait">请稍等....</string>
+	<string name="downloading">正在下载</string>
+	<string name="loading">正在加载...</string>
+	<string name="unsupportformat">不支持此格式文件播放</string>
+	<string name="cannotplay">不能播放该视频</string>
+	<string name="unknownartist">未知艺术家</string>
+	<string name="singleplayback">单曲重放</string>
+	<string name="closesingleplayback">关闭单曲重放</string>
+	
+	<string name="loadfileFailure">加载失败</string>
+	<string name="unknow_error">未知错误</string>
+	<string name="Failed_to_load">图片太大,加载失败,请稍候重试..</string>
+	<string name="Play_failed">播放失败</string>
+	
+	
+	
+	<string name="home">主页</string>
+	<string name="exit">退出</string>
+	<string name="set">设置</string>
+	<string name="flash">刷新</string>
+	<string name="check_music">网络不稳定或服务断开</string>
+	<string name="music_already_last">已经是最后一个音频文件了</string>
+	<string name="music_already_first">已经是最前一个音频文件了</string>
+	<string name="audio_play_failed">音频播放失败!</string>
+	<string name="connection_serices_failed">连接媒体服务器失败!</string>
+	<string name="connecting_serices">正在连接媒体服务器...</string>
+	<string name="music_error">音频格式错误或者文件不存在...</string>
+	<string name="photo_already_last">已经是最后一个图片了</string>
+	<string name="photo_already_first">已经是最前一个图片了</string>
+    <string name="share_content">共享内容</string>
+    <string name="start_share_content">启动共享内容</string>
+
+    <string name="share_content_set">共享内容设置</string>
+    <string name="share_content_set_message">与家人朋友共享您最喜欢的内容</string>
+    <string name="devices_name">设备名称</string>
+    <string name="media_play">媒体播放器</string>
+    <string name="start_media_play">启动本地播放器服务</string>
+    <string name="media_play_name">播放器名称</string>
+    <string name="network_set">网络设置</string>
+    <string name="network_set_input">设置网络接入点</string>
+    <string name="slide_set">设置播放幻灯片的间隔时间</string>
+    <string name="display_type">显示方式</string>
+    <string name="display_list">列表方式显示文件</string>
+    <string name="display_grid">网格方式显示文件</string>
+    <string name="photo">照片</string>
+    <string name="music">音乐</string>
+    <string name="movie">视频</string>
+    <string name="play">播放器</string>
+    
+    <string name="close_share_content">关闭共享内容</string>
+    <string name="close_media_play">关闭本地播放器服务</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    
+    <string name="about">关于</string>
+    <string name="version">版本</string>
+    <string name="app_about">\n
+		Android 2.2以上平台使用,分辨率最好是480*800以上的\n
+		\n
+		®2011 博创力科技有限公司\n
+		版权所有\n
+		\n
+		----------------------------------------------------\n
+		MirageDLNA提供了 DLNA 协议 1.0 中的 DMP、DMS、DMC、DMR四个功能。\n
+		\n
+		DMS(服务端):\n
+		\t能够显示各类文件列表，图库能够显示的媒体文件都能作为服务文件 \n
+		DMP(客户端)：\n
+		\t显示各类文件，系统支持的都能显示\n
+		DMC(控制端)能够控制的设备：\n
+		\t具有Render功能的都能控制，如Win7、机顶盒、智能电视\n
+		DMC(播放端)能够支持的播放格式：\n
+		\t系统能够播放的视频、音乐文件本播放端都能被控制端控制播放,前提是当前应用不能退到后台\n
+	</string>
+	
+    <string name="select_network_msg">请选择是使用以太网还是Wifi热点？</string>
+    <string name="select_network_tit">选择网络连接</string>
+    <string name="ethnet_string">以太网</string>
+    <string name="softap_string">Wifi热点</string>
+    <string name="zoombutton_hide_message">图片播放界面，缩放图标隐藏</string>
+    <string name="zoombutton_display_message">图片播放界面，缩放图标显示</string>
+    <string name="zoombutton_title">缩放图标</string>
+    
+    
+    <string name="audio_remote_play_error">当前音频，远程播放器格式不支持!</string>
+    <string name="image_remote_play_error">当前图片，远程播放器格式不支持!</string>
+    <string name="video_remote_play_error">当前视频，远程播放器格式不支持!</string>
+    
+    <string name="network_load_failed">网络加载失败</string>
+    <string name="please_set_network">请设置好wifi网络或者以太网</string>
+    
+    <string name="volume">音量</string>
+    <string name="volume_min">音量已经是最低</string>
+    <string name="check_update">检查更新</string>
+    <string name="check_updateing">正在检查更新...</string>
+    <string name="has_update">有更新</string>
+    <string name="hased_update">已经是最新版本</string>
+    <string name="playing_remote_video">正在播放远程视频</string>
+    <string name="exiting">正在退出...</string>
+    <string name="network_connection_failed">网络连接失败</string>
+    <string name="get_current_network_image_failed">获取当前网络图片失败!</string>
+    
+</resources>

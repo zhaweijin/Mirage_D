@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="white">#FFFFFF</color>
+	<color name="offWhite">#DDDDDD</color>
+	<color name="black">#FF000000</color>
+	<color name="blue">#FF0000FF</color>
+	<color name="gray">#FF888888</color>
+	<color name="darkGray">#333333</color>
+	<color name="lightGray">#777777</color>
+	<color name="brightRed">#FF0000</color>
+	<color name="brightGreen">#00FF00</color>
+	<color name="brightBlue">#0000FF</color>
+	<color name="darkBlue">#880000FF</color>
+	<color name="transparent">#000000FF</color>
+	
+	<color name="font_color">#FF000000</color>
+    <color name="background">#CCCCCCCC</color>
+    <color name="InterLineColor">#88AA0000</color>
+	<color name="titbackground">#88AAAAAA</color>
+	
+	<drawable name="grobal_background">#FF1B222C</drawable>
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mirage.dlna"
+    android:versionCode="2"
+    android:versionName="1.0.6" >
+    <uses-sdk android:minSdkVersion="8" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    
+
+    <application
+        android:name=".application.BaseApplication"
+        android:debuggable="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name" >
+        <activity android:name="com.mirage.dmp.ImageDisplay" 
+            android:configChanges="keyboardHidden|orientation"/>
+        <service android:name=".DlnaStatusService" />
+
+        <activity
+            android:name="HomeActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:alwaysRetainTaskState="true"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.mirage.dlna.music.MusicPlayer" android:launchMode="singleTop"
+            android:configChanges="keyboardHidden|orientation"/>
+        <activity android:name="com.mirage.dmc.RemoteVideoPlay" android:configChanges="keyboardHidden|orientation"/>
+
+        <activity
+            android:name="com.mirage.dmr.GPlayer"
+            android:configChanges="keyboardHidden|orientation"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity android:name="org.teleal.cling.mediarenderer.gstreamer.GstMediaPlayer" 
+            android:configChanges="keyboardHidden|orientation"/>
+
+        <service android:name="com.mirage.dmp.WireUpnpService" />
+        <service android:name="com.mirage.dlna.music.PlayerService" />
+        <service android:name="com.mirage.dmr.RenderServices" /> 
+        <service android:name="com.mirage.dmr.RenderPlayerService" />
+        
+        <!-- setting -->
+        <activity android:name="com.mirage.dlna.Setting"  android:theme="@android:style/Theme.NoTitleBar"> </activity>
+        <activity android:name="com.mirage.dlna.ShareSetting" android:theme="@android:style/Theme.NoTitleBar"> </activity>
+        <activity android:name=".About" android:theme="@android:style/Theme.NoTitleBar"> </activity>
+        
+    </application>
+
+</manifest>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <string-array name="choose_types">
+        <item>文本</item>
+        <item>音频</item>
+        <item>视频</item>
+        <item>图像</item>
+    </string-array>
+
+        <string-array name="picture_sliding_key">
+        <item>4秒</item>
+        <item>7秒</item>
+        <item>10秒</item>
+    </string-array>
+    
+    <string-array name="picture_sliding_value">
+        <item>4000</item>
+        <item>7000</item>
+        <item>10000</item>
+    </string-array>
+</resources>
